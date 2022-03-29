@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="200dp"
+        android:backgroundTint="#199FAC"
+        android:text="Earth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="200dp"
+        android:backgroundTint="#F6A21E"
+        android:text="Venus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginRight="200dp"
+        android:backgroundTint="#E7625F"
+        android:text="Mars"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="310dp"
+        android:backgroundTint="#FFA384"
+        android:layout_marginLeft="200dp"
+        android:text="Jupiter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="200dp"
+        android:backgroundTint="#FFB067"
+        android:text="Saturn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="200dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="Neptune"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="488dp"
+        android:backgroundTint="#0C2D48"
+        android:text="SpaceX"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

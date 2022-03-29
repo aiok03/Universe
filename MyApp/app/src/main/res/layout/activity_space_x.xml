@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7E9DC2"
+    tools:context=".SpaceX">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="302dp"
+        android:layout_height="508dp"
+        android:layout_marginBottom="340dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/space" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="335dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="16dp"
+        android:text="Space Exploration Technologies Corporation, better known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of mars. SpaceX has since developed the Falcon launch vehicle family and the Dragon spacecraft family, which both currently deliver payloads into Earth Orbit.
+
+SpaceX's achievements include the first privately funded liquid-propellant rocket to reach orbit (Falcon 1 in 2008) the first privately funded company to successfully launch, orbit, and recover a spacecraft (Dragon in 2010); the first private company to send a spacecraft to the International Space Station (Dragon in 2012) the first propulsive landing for an orbital rocket (Falcon 9 in 2015); and the first reuse of an orbital rocket (Falcon 9 in 2017). As of March 2017, SpaceX has since flown ten missions to the International Space Station (ISS) under a cargo resupply contract.
+
+NASA also awarded SpaceX a further development project in 2011 to develop and demonstrate a human-rated Dragon, which would be used to transport astronauts to the ISS and return them safely to Earth. "
+        android:textAlignment="center"
+        android:textColor="#FFFEFE"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
